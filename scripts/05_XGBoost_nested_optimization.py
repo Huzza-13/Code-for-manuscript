@@ -1,5 +1,6 @@
 import os
 import json
+from pathlib import Path
 import pandas as pd
 import numpy as np
 
@@ -32,6 +33,8 @@ input_file = (
 OUTPUT_DIR = Path(
     r"D:\python\pythonProject1\机器学习新 202608\no_chain_PFASclass"
 )
+
+output_dir = str(OUTPUT_DIR)
 
 os.makedirs(
     output_dir,

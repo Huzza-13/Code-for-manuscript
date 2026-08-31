@@ -79,7 +79,7 @@ y = data[target]
 # ============================================================
 # 5. Final Reduced Full predictor set
 #
-# 15 original predictors
+# 13 original predictors
 # ============================================================
 
 features = [

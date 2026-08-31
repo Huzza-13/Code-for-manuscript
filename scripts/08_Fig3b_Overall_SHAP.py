@@ -120,8 +120,8 @@ raw_shap_df.to_csv(
 #    back to ORIGINAL predictors
 #
 # IMPORTANT:
-# Categories are aggregated so that Tissue group,
-# Morphotype and Functional group each appear once.
+# Categories are aggregated so that Tissue group and
+# Morphotype each appear once.
 # ============================================================
 
 feature_groups = {
