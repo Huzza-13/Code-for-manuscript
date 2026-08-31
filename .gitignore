@@ -1,0 +1,18 @@
+# Input data and generated outputs
+data/*.xlsx
+data/*.xls
+data/*.csv
+results/*
+!data/README.md
+!results/README.md
+
+# Python environment and caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
